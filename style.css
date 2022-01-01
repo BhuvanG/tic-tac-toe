@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    outline: 5px solid black;
+    aspect-ratio: 1;
+    height: 600px;
+    gap: 10px;
+}
+
+.square{
+    background-color: blue;
+    font-size: 40px;
+}
